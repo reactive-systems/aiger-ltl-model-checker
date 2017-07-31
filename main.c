@@ -70,7 +70,7 @@ int main(int argc, const char* argv[]) {
     assert(!aiger_check(combination));
 
     //aiger_reencode(combination);
-    aiger_write_to_file(combination, aiger_ascii_mode, stdout);
+    aiger_write_to_file(combination, aiger_binary_mode, stdout);
     
     return 0;
 }
